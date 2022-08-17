@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/com-thisthatfarm-nfc/static/css/main.22779872.css",
+    "main.js": "/com-thisthatfarm-nfc/static/js/main.fb904000.js",
+    "static/js/787.73931aca.chunk.js": "/com-thisthatfarm-nfc/static/js/787.73931aca.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/com-thisthatfarm-nfc/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/com-thisthatfarm-nfc/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "index.html": "/com-thisthatfarm-nfc/index.html",
+    "main.22779872.css.map": "/com-thisthatfarm-nfc/static/css/main.22779872.css.map",
+    "main.fb904000.js.map": "/com-thisthatfarm-nfc/static/js/main.fb904000.js.map",
+    "787.73931aca.chunk.js.map": "/com-thisthatfarm-nfc/static/js/787.73931aca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22779872.css",
+    "static/js/main.fb904000.js"
+  ]
+}
