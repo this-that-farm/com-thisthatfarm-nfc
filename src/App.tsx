@@ -1,4 +1,5 @@
 import 'bootswatch/dist/sketchy/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import React from 'react';
 import {HashRouter, Route, Routes} from 'react-router-dom';

@@ -8,10 +8,6 @@ interface props {
 
 function HerdListItem({herdID}: props) {
   let row = HerdDB.find((obj) => obj.ID === herdID);
-  let symbol = (() => {
-    if (!row?.isMale) return 'venus';
-    return row?.isSterile ? 'mars-stroke' : 'mars';
-  })();
 
   return (
     <Link
@@ -21,7 +17,9 @@ function HerdListItem({herdID}: props) {
       <section className='d-flex w-100 justify-content-between'>
         <section>
           <section className='text-info fw-bold mb-1'>
-            <i className={`fa-solid fa-${symbol} me-2`} />
+            <i
+              className={`bi bi-gender-${row?.isMale ? 'male' : 'female'} me-2`}
+            />
             {row?.name}
           </section>
           <small>
