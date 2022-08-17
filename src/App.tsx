@@ -1,19 +1,25 @@
-import React from 'react';
 import 'bootswatch/dist/sketchy/bootstrap.min.css';
-import {HashRouter, Routes} from 'react-router-dom';
+
+import React from 'react';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 import Footer from './components/layouts/Footer';
 import Header from './components/layouts/Header';
+import HerdDetail from './pages/HerdDetail';
+import HerdList from './pages/HerdList';
 
 function App() {
   return (
     <HashRouter>
       <section className='container-fluid my-3'>
         <Header />
-        <Routes />
+        <Routes>
+          <Route path='/' element={<HerdList />} />
+          <Route path=':herdID' element={<HerdDetail />} />
+        </Routes>
         <Footer />
       </section>
     </HashRouter>
   );
 }
 
-export default App;
+export default React.memo(App);
