@@ -1,4 +1,15 @@
-const HerdDB = [
+export interface IAnimal {
+  ID: number;
+  tagID: number;
+  sireID: number | null;
+  damID: number | null;
+  birthTime: number;
+  name: string;
+  isMale: boolean;
+  isSterile: boolean;
+}
+
+const HerdDB: IAnimal[] = [
   {
     ID: 1,
     tagID: 828,
